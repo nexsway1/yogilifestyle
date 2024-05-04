@@ -1,0 +1,71 @@
+/* Basic CSS file for School of Yogic Lifestyle */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #009688;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #00796b;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.terms-section {
+    margin-top: 20px;
+}
+
+.terms-section h1 {
+    color: #009688;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.terms-section h2 {
+    color: #009688;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.terms-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
